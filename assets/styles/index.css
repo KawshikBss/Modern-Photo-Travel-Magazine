@@ -1,0 +1,48 @@
+.content {
+    background-image: url("/assets/images/Main_bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    color: #eede88;
+    font-family: "Vidaloka";
+    font-size: 108px;
+}
+
+.heading-note {
+    color: #fff;
+    font-size: 16px;
+}
+
+.heading-second {
+    font-size: 36px;
+    color: #eede88;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    color: #eede88;
+}
+
+.footer {
+    font-size: 32px;
+    color: #fff;
+}
