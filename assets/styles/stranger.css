@@ -1,0 +1,78 @@
+body {
+    background-color: #b5c6e2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.heading {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 16pt;
+    margin-top: 10px;
+}
+
+.banner-1 {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+    top: 0;
+    left: 50%;
+    right: 50%;
+}
+
+.banner-1-cred {
+    margin-right: 16px;
+    align-self: flex-end;
+}
+
+.second-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.article {
+    font-size: 12px;
+    color: #000;
+    letter-spacing: 2.1pt;
+    line-height: 20pt;
+    z-index: 100;
+    text-align: center;
+}
+
+.author {
+    color: #000;
+    font-size: 12px;
+    align-self: flex-end;
+    text-align: end;
+}
+
+.banner-2 {
+    height: 100%;
+    width: 45%;
+    object-fit: contain;
+}
+
+.banner-2-cred {
+    color: #000;
+    font-size: 12px;
+    align-self: flex-end;
+    margin-right: 16px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,36 @@
+body {
+    background-image: url("/modern-Photo-Travel-Magazine/assets/images/dusk_bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.article {
+    font-size: 16px;
+    color: #000;
+    width: 55%;
+    line-height: 24pt;
+}
+
+.heading {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.author {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    align-self: flex-end;
+}
