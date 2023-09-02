@@ -80,7 +80,7 @@ ul {
 }
 
 .navbar.open {
-    background-image: url("/modern-Photo-Travel-Magazine/assets/images/Nav_menu_backdrop.png"); /* Replace with your image URL */
+    background-image: url("/Modern-Photo-Travel-Magazine/assets/images/Nav_menu_backdrop.png"); /* Replace with your image URL */
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -50px;
