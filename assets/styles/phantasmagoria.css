@@ -1,0 +1,26 @@
+body {
+    background-image: url("/Modern-Photo-Travel-Magazine/assets/images/rabindranath.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-inner {
+    height: fit-content;
+    font-size: 20px;
+    color: #000;
+    margin-right: 50px;
+}
+
+.credit {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 30px;
+}
