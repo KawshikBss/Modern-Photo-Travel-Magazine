@@ -1,0 +1,76 @@
+body {
+    background-image: url("/assets/images/reclaiming_rust_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.col {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-col {
+    justify-content: space-around;
+}
+
+.image-contain {
+    width: 100%;
+    height: 40%;
+    border: 10px solid #eede88;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-inner {
+    width: 80%;
+    height: 80%;
+    border: 10px solid #eede88;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 40pt;
+    text-align: center;
+}
+
+.top-decor {
+    width: 50%;
+    object-fit: contain;
+}
+
+.bottom-decor {
+    width: 50%;
+    object-fit: contain;
+}
+
+.credit {
+    font-size: 14px;
+    align-self: flex-end;
+}
